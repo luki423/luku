@@ -1,0 +1,38 @@
+#main_win, #menu_win {
+  background-color: rgb(19, 23, 32);
+}
+
+QGroupBox::title {
+  padding: 0 15px;
+  subcontrol-position: top right;
+}
+
+QLabel, QGroupBox::title, QPushButton, QRadioButton, QLineEdit {
+  color: #f9ffffff;
+  font: 450 14px "Comic Sans MS";
+}
+
+QPushButton {
+  background-color: rgb(252, 117, 70);
+  border: 1px solid rgb(252, 117, 70);
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+
+QLineEdit {
+  border: 1px solid #00ffffff;
+  border-radius: 4px;
+  padding: 0px 2px;
+}
+
+QLineEdit {
+  background-color: rgb(24, 28, 37);
+}
+
+QLineEdit:!focus:hover {
+  background-color: rgb(104, 75, 255);
+}
+
+QLineEdit:focus {
+  background-color: rgb(205, 79, 238);
+}
